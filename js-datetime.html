@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p id="output"></p>
+        <p id="output2"></p>
+
+        <script>
+
+            var dt = new date(1980, 2, 1, 0, 0, 0);
+
+            Document.getElementById("output").innerhtml = dt.setHours(11);
+            dt.setMinutes(25);
+            dt.setFullYear(2009);
+            document.getElementbyId("output").innerHTML = dt;
+        </script>
+    </body>
+</html>
